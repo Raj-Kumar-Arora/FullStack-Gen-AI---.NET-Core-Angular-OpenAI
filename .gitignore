@@ -1,4 +1,7 @@
-# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
 # ===========================
 # Global Ignored Files
 # ===========================
@@ -10,6 +13,11 @@
 *.bak
 Thumbs.db
 *.DS_Store
+/.vs/FullStack Gen AI - .NET Core + Angular + OpenAI/CopilotIndices/17.14.939.21063
+/.vs/FullStack Gen AI - .NET Core + Angular + OpenAI/FileContentIndex
+/.vs/FullStack Gen AI - .NET Core + Angular + OpenAI/v17
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
 
 # ===========================
 # .NET / Backend
@@ -23,6 +31,14 @@ publish/
 appsettings.*.json
 .env
 .env.*
+/BackEnd/ConsoleApp1/.vs
+/BackEnd/ConsoleApp1/ConsoleApp1.csproj.user
+/BackEnd/ConsoleApp1/obj
+/BackEnd/WebAPI/.vs
+/BackEnd/WebAPI/appsettings.Development.json
+/BackEnd/WebAPI/bin/Debug/net8.0
+/BackEnd/WebAPI/obj
+/BackEnd/WebAPI/WebAPI.csproj.user
 
 # ===========================
 # Angular / Frontend
@@ -34,6 +50,9 @@ frontend/dist/
 .angular/
 .cache/
 coverage/
+/FrontEnd/UI_App/.angular/cache/20.1.6/UI_App
+/FrontEnd/UI_App/.vscode
+/FrontEnd/UI_App/node_modules
 
 # ===========================
 # IDE / Tooling
@@ -42,44 +61,3 @@ coverage/
 .vscode/
 *.code-workspace
 
-
-# Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
-
-# Node
-/node_modules
-npm-debug.log
-yarn-error.log
-
-# IDEs and editors
-.idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
-
-# Visual Studio Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
-
-# Miscellaneous
-/.angular/cache
-.sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
-/typings
-
-# System files
-.DS_Store
-Thumbs.db
