@@ -117,6 +117,7 @@ OpenAI Integration Layer
 
 ## 📂 Solution Structure
 
+```text
 Backend
 └── ASP.NET Core Web API
 
@@ -125,6 +126,7 @@ Frontend
 
 AI Integration
 └── OpenAI Services
+```
 
 ---
 
