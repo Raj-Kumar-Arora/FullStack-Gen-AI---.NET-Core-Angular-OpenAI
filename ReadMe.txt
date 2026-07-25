@@ -22,6 +22,7 @@ The objective of this project is to demonstrate:
 
 ## 🏗 Architecture Overview
 
+```text
 Angular Frontend
 |
 |
@@ -32,7 +33,7 @@ Application Service Layer
 |
 |
 OpenAI Integration Layer
-
+```
 
 ### Architecture Principles
 
