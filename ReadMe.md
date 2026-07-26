@@ -20,6 +20,28 @@ The objective of this project is to demonstrate:
 
 ---
 
+## 🚧 Project Status
+
+This project is currently under active development.
+
+### Completed
+
+- ✅ ASP.NET Core backend foundation
+- ✅ Angular application setup
+- ✅ OpenAI integration framework
+- ✅ GET API endpoints
+- ✅ Initial application architecture
+- ✅ Containerize the application using Docker
+
+### Planned
+
+- ⏳ Complete POST API endpoints             - TODO Fix Errors
+- ⏳ Build end-to-end Angular pages          - TODO Add more details
+- ⏳ Improve prompt management
+- ⏳ Added authentication and authorization  - TODO TESTING
+
+---
+
 ## 🏗 Architecture Overview
 
 ```text
@@ -127,6 +149,19 @@ Frontend
 AI Integration
 └── OpenAI Services
 ```
+
+---
+
+## 🔮 Future Enhancements
+
+- Azure App Service deployment
+- Azure OpenAI integration
+- Docker support
+- CI/CD using GitHub Actions
+- Unit and integration testing
+- Role-based authentication
+- Conversation history
+- Prompt templates
 
 ---
 
